@@ -1,0 +1,11 @@
+build/
+.vs/
+.vscode/
+node_modules/
+**/*/node_modules/*
+**/*/dist/*
+debug.log
+
+.env
+npm-debug.log
+package-lock.json
