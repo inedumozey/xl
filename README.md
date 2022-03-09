@@ -1,10 +1,10 @@
-## @mozeyinedu/xl
+# @mozeyinedu/xl
 
-# Description
+## Description
 
 xl is an electron package module that converts json file to excel and save in a specified directory or current directory. It also read excel file and convert to json data.
 
-# Has two methodes
+### Has two methods
 
 ...
 
@@ -20,7 +20,7 @@ xl is an electron package module that converts json file to excel and save in a 
 
 ...
 
-# Converting JSON to Excel
+### Converting JSON to Excel
 
 ...
 
@@ -48,7 +48,7 @@ It receives an object with 6 properties
 
 6. title: String that will appear at the top of the save dialog. Default is 'Saving New Excel File'
 
-# example
+### example
 
 ...
 
@@ -93,7 +93,7 @@ It receives an object with 6 properties
 
 
 
-# Converting Excel to JSON
+### Converting Excel to JSON
 
 ...
 
@@ -109,7 +109,7 @@ It receives an object with two properties of which all are optional
 If non excel file is selected, JSON data will not be produced but still wont block your code, it runs asynchronously
 The function returns promise with the data in array
 
-# examples
+### examples
 ...
 
     // no any property in the object parameter
