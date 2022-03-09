@@ -2,11 +2,7 @@
 
 ## Installation
 
-...
-
-    npm i @mozeyinedu/xl
-
-...
+`npm i @mozeyinedu/xl`
 
 ## Description
 
@@ -154,3 +150,7 @@ The function returns promise with the data in array
     }
 
 ...
+
+#### Reach me;
+* whatsApp/Call: +2348036000347
+* [Facebook](https://www.facebook.com/mozey.inedu.3)

@@ -8,6 +8,7 @@ module.exports = {
         filename: 'bundle.js',
         globalObject: 'this'
     },
+    externals: ['fs', 'os', 'path'],
     module: {
         rules: [
             {
