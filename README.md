@@ -1,5 +1,13 @@
 # @mozeyinedu/xl
 
+## Installation
+
+...
+
+    npm i @mozeyinedu/xl
+
+...
+
 ## Description
 
 xl is an electron package module that converts json file to excel and save in a specified directory or current directory. It also read excel file and convert to json data.
