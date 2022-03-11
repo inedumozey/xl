@@ -5,8 +5,6 @@ const fs = require('fs');
 const { dialog } = require("electron");
 const check = require('@mozeyinedu/check');
 
-console.log(check);
-
 async function jsonToExcel({
     data=[],
     save=false,

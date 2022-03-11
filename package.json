@@ -1,8 +1,8 @@
 {
   "name": "@mozeyinedu/xl",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "@mozeyinedu/xl converts json to excel and vice versa",
-  "main": "build/bundle.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production"
   },
@@ -30,20 +30,11 @@
   ],
   "author": "mozey",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.17.0",
-    "@babel/preset-env": "^7.16.11",
-    "babel": "^6.23.0",
-    "babel-loader": "^8.2.3",
-    "electron": "^17.0.0",
-    "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
-  },
-  "peerDependencies": {
-    "electron": "^17.0.0"
-  },
   "dependencies": {
     "@mozeyinedu/check": "^1.0.2",
     "xlsx": "^0.18.0"
+  },
+  "devDependencies": {
+    "electron": "^17.1.2"
   }
 }
